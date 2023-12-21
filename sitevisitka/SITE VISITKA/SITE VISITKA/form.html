@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обратная связь</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header class="clearfix">
+            <a href="index.html"  id="logo"><span class="pink">Сайт</span> <i>визитка</i></a>
+            <nav id="mainnav">
+                <ul>
+                    <li><a href="uslugi.html">Услуги</a></li>
+                    <li class="active"><a href="aboutUs.html">О нас</a></li>
+                    <li><a href="clients.html">Клиенты</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form id="contact-form" class="form" action="">
+                <div class="form_item">
+                    <label for="name" required>Очистить форму-</label><br>
+                    <input type="reset" class="reset" value="Очистить!" />
+                </div>
+                <div class="form_item">
+                    <label for="date" >Дата</label><br>
+                    <input required type="date" placeholder="basmanovivan@gmail.com">
+                </div>
+                <div class="form_item">
+                    <label for="name" >Имя</label><br>
+                    <input required type="text" placeholder="Иван">
+                </div>
+                <div class="form_item">
+                    <label for="email" >E-mail</label><br>
+                    <input required type="email" placeholder="basmanovivan@gmail.com">
+                </div>
+                <div class="form_item">
+                    <label for="name" required>Тема</label><br>
+                    <select name="topic" id="topic" type="topic">
+                        <option value="1">Заказать услугу</option>
+                        <option value="2">Оставить отзыв/замечание</option>
+                        <option value="3">Предложить сотрудничество</option>
+                        <option value="4">Другое</option>
+                    </select>
+                </div>
+                
+                <div class="form_item">
+                    <label for="email">Текст сообщения</label><br>
+                    <textarea name="comment" required></textarea>
+                </div>
+                <div class="form_item">
+                    <input type="submit">
+                </div>
+            </form>
+        </main>
+    </div>
+    <footer>
+        <a href="form.html" class="footer-block">Написать нам &#9650;</a>
+        <p>&copy; Новая компания</p>
+        <div class="footer-icons">
+        <a href="https://mail.ru/" target="_blank"><img src="img/mailru.png" alt="mailru" class="footer-img"></a>
+        <a href="https://ok.ru/" target="_blank"><img src="img/ok.png" alt="ok" class="footer-img"></a>
+        <a href="https://vk.com/" target="_blank"><img src="img/vk.png" alt="vk" class="footer-img"></a>
+        </div>
+    </footer>    
+</body>
+</html>
